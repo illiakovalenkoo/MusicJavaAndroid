@@ -1,63 +1,66 @@
-# Quiz App - Java Android Application
+# **Simple Music Player - Android Application**  
 
-## 📖 Project Overview
-The **Quiz App** is a simple Android application that presents users with a **5-question quiz** where they can answer "Yes" or "No" to each question. At the end of the quiz, a **final result** is displayed based on the user's responses.
-
----
-
-## 🚀 Features
-✔ **5-question yes/no quiz**
-✔ **Simple and user-friendly Android UI**
-✔ **Instant feedback on results**
-✔ **Lightweight and fast execution**
-✔ **Screenshots of test results available in `images/`**
-✔ **Pre-built APK included for direct installation**
+## 📚 **Project Overview**  
+**Simple Music Player** is a Java-based Android application that allows users to **play, stop, and restart** a song stored in the app's `raw` folder. The interface consists of two buttons: a **left button** for play/stop and a **right button** for restart.  
 
 ---
 
-## 📦 System Requirements
-
-### **1️⃣ Android Studio**
-- Download and install **Android Studio**: [Download Here](https://developer.android.com/studio)
-- Open the project in Android Studio and set up the necessary dependencies.
-
-### **2️⃣ Android Device or Emulator**
-- The application can be run on **any Android device** with **Android 5.0 (Lollipop) or higher**.
-- Alternatively, you can use an **Android emulator** in Android Studio.
+## 🚀 **Features**  
+✔ **Play and stop music with a single button**  
+✔ **Restart the track instantly with a separate button**  
+✔ **Loads music from the `raw` folder**  
+✔ **Lightweight and minimalistic design**  
+✔ **Works offline with local audio files**  
+✔ **Optimized performance for smooth playback**  
+✔ **Test result screenshots in `images/` folder**  
+✔ **Pre-built APK for direct installation**  
+✔ **Automated unit tests included**  
 
 ---
 
-## 💻 How to Run the Application
+## 📦 **System Requirements**  
 
-### **Option 1: Running from Android Studio**
-1. Open the project in **Android Studio**.
-2. Connect an Android device via USB **or** set up an emulator.
-3. Click **Run ▶** to build and deploy the app.
+### **1️⃣ Android Studio**  
+- Download and install **Android Studio**: [Download Here](https://developer.android.com/studio)  
+- Open the project in Android Studio and configure dependencies.  
 
-### **Option 2: Installing APK Directly**
-1. Navigate to the folder containing the APK file:
+### **2️⃣ Android Device or Emulator**  
+- The application supports **Android 5.0 (Lollipop) and higher**.  
+- You can run it on an **Android emulator** within Android Studio.  
+
+---
+
+## 💻 **How to Run the Application**  
+
+### **1️⃣ Running via Android Studio**  
+1. Open the project in **Android Studio**.  
+2. Connect an Android device via USB **or** set up an emulator.  
+3. Click **Run ▶** to build and launch the app.  
+
+### **2️⃣ Installing the APK Directly**  
+1. Locate the APK file in the following directory:  
    ```
    app/build/outputs/apk/release/app-release.apk
    ```
-2. Transfer the APK to an Android device.
-3. Open the APK file and install the application.
+2. Transfer the APK file to an Android device.  
+3. Open the APK file and install the application.  
 
 ---
 
-## 📷 Test Screenshots
-All test result screenshots can be found in the **`images/`** directory.
+## 📸 **Test Screenshots**  
+Test result screenshots can be found in the **`images/`** folder.  
 
 ---
 
-## 🛠 Built With
-- **Java (Android SDK)**
-- **Android Studio**
-- **Gradle**
+## 🛠 **Built With**  
+- **Java (Android SDK)**  
+- **Android Studio**  
+- **Gradle (Groovy DSL)**  
 
 ---
 
-## 📜 License
-This project is licensed under the **MIT License** – feel free to modify and use it.
+## 🐝 **License**  
+This project is licensed under the **MIT License** – feel free to modify and use it.  
 
 🚀 **Happy coding!**
 
