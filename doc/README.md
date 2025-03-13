@@ -45,7 +45,7 @@ To run this project, you need:
 If you want to install the pre-built APK file without running the project in Android Studio:
 
 1. **Locate the APK file**:
-   - If you built it manually: `app/build/outputs/apk/release/app-release.apk`.
+   - The signed APK file is available at: `app/build/outputs/apk/release/musicapp-release.apk`.
    - If you downloaded it from GitHub Releases, find it in your downloads folder.
 
 2. **Transfer the APK to your phone**:
@@ -67,6 +67,7 @@ If you want to install the pre-built APK file without running the project in And
 - **App Crashes on Start** → Ensure you have granted **Storage Permissions** in **Settings > Apps > MusicApp > Permissions** (only needed for external files).
 - **Emulator Runs Slowly** → Enable **Hardware Acceleration** in Android Studio settings.
 - **APK Installation Blocked** → Enable installation from unknown sources in your device settings.
+- **APK Not Found** → Ensure the APK is in the correct location: `app/build/outputs/apk/release/musicapp-release.apk`.
 
 ## 3. Project Structure
 
@@ -87,14 +88,13 @@ If you want to install the pre-built APK file without running the project in And
 
 The application has been tested for:
 
- **Basic music playback functionality**  
- **Start, pause, and stop controls**  
- **App stability on different Android versions (API 29–33)**  
- **Performance on emulator and real devices**  
- **APK installation and manual execution**  
+- **Basic music playback functionality**  
+- **Start, pause, and stop controls**  
+- **App stability on different Android versions (API 29–33)**  
+- **Performance on emulator and real devices**  
+- **APK installation and manual execution**  
 
 ## 6. License
 
 This project is licensed under the **MIT License**. You are free to use, modify, and distribute this software with no restrictions. The software is provided "as is", without warranty of any kind.
-
 
